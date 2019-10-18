@@ -96,7 +96,7 @@
       <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
-      <AdditionalIncludeDirectories>src;src\eyex;%(AdditionalIncludeDirectories);..\..\..\addons\ofxMidi\libs;..\..\..\addons\ofxMidi\libs\pgmidi;..\..\..\addons\ofxMidi\libs\rtmidi;..\..\..\addons\ofxMidi\src;..\..\..\addons\ofxMidi\src\desktop;..\..\..\addons\ofxMidi\src\ios</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>src;src\eyex;%(AdditionalIncludeDirectories);..\ofxMidi\libs;..\ofxMidi\libs\pgmidi;..\ofxMidi\libs\rtmidi;..\ofxMidi\src;..\ofxMidi\src\desktop;..\ofxMidi\src\ios</AdditionalIncludeDirectories>
       <CompileAs>CompileAsCpp</CompileAs>
     </ClCompile>
     <Link>
@@ -115,7 +115,7 @@
       <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);..\..\..\addons\ofxMidi\libs;..\..\..\addons\ofxMidi\libs\pgmidi;..\..\..\addons\ofxMidi\libs\rtmidi;..\..\..\addons\ofxMidi\src;..\..\..\addons\ofxMidi\src\desktop;..\..\..\addons\ofxMidi\src\ios</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);..\ofxMidi\libs;..\ofxMidi\libs\pgmidi;..\ofxMidi\libs\rtmidi;..\ofxMidi\src;..\ofxMidi\src\desktop;..\ofxMidi\src\ios</AdditionalIncludeDirectories>
       <CompileAs>CompileAsCpp</CompileAs>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
@@ -134,7 +134,7 @@
       <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
-      <AdditionalIncludeDirectories>src;src\eyex;%(AdditionalIncludeDirectories);..\..\..\addons\ofxMidi\libs;..\..\..\addons\ofxMidi\libs\pgmidi;..\..\..\addons\ofxMidi\libs\rtmidi;..\..\..\addons\ofxMidi\src;..\..\..\addons\ofxMidi\src\desktop;..\..\..\addons\ofxMidi\src\ios</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>src;src\eyex;%(AdditionalIncludeDirectories);..\ofxMidi\libs;..\ofxMidi\libs\pgmidi;..\ofxMidi\libs\rtmidi;..\ofxMidi\src;..\ofxMidi\src\desktop;..\ofxMidi\src\ios</AdditionalIncludeDirectories>
       <CompileAs>CompileAsCpp</CompileAs>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
@@ -156,7 +156,7 @@
       <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);..\..\..\addons\ofxMidi\libs;..\..\..\addons\ofxMidi\libs\pgmidi;..\..\..\addons\ofxMidi\libs\rtmidi;..\..\..\addons\ofxMidi\src;..\..\..\addons\ofxMidi\src\desktop;..\..\..\addons\ofxMidi\src\ios</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);..\ofxMidi\libs;..\ofxMidi\libs\pgmidi;..\ofxMidi\libs\rtmidi;..\ofxMidi\src;..\ofxMidi\src\desktop;..\ofxMidi\src\ios</AdditionalIncludeDirectories>
       <CompileAs>CompileAsCpp</CompileAs>
     </ClCompile>
     <Link>
@@ -183,16 +183,16 @@
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\movingSwitch.cpp" />
     <ClCompile Include="src\ofApp.cpp" />
-    <ClCompile Include="..\..\..\addons\ofxMidi\src\ofxBaseMidi.cpp" />
-    <ClCompile Include="..\..\..\addons\ofxMidi\src\ofxMidi.cpp" />
-    <ClCompile Include="..\..\..\addons\ofxMidi\src\ofxMidiClock.cpp" />
-    <ClCompile Include="..\..\..\addons\ofxMidi\src\ofxMidiIn.cpp" />
-    <ClCompile Include="..\..\..\addons\ofxMidi\src\ofxMidiMessage.cpp" />
-    <ClCompile Include="..\..\..\addons\ofxMidi\src\ofxMidiOut.cpp" />
-    <ClCompile Include="..\..\..\addons\ofxMidi\src\ofxMidiTimecode.cpp" />
-    <ClCompile Include="..\..\..\addons\ofxMidi\src\desktop\ofxRtMidiIn.cpp" />
-    <ClCompile Include="..\..\..\addons\ofxMidi\src\desktop\ofxRtMidiOut.cpp" />
-    <ClCompile Include="..\..\..\addons\ofxMidi\libs\rtmidi\RtMidi.cpp" />
+    <ClCompile Include="..\ofxMidi\src\ofxBaseMidi.cpp" />
+    <ClCompile Include="..\ofxMidi\src\ofxMidi.cpp" />
+    <ClCompile Include="..\ofxMidi\src\ofxMidiClock.cpp" />
+    <ClCompile Include="..\ofxMidi\src\ofxMidiIn.cpp" />
+    <ClCompile Include="..\ofxMidi\src\ofxMidiMessage.cpp" />
+    <ClCompile Include="..\ofxMidi\src\ofxMidiOut.cpp" />
+    <ClCompile Include="..\ofxMidi\src\ofxMidiTimecode.cpp" />
+    <ClCompile Include="..\ofxMidi\src\desktop\ofxRtMidiIn.cpp" />
+    <ClCompile Include="..\ofxMidi\src\desktop\ofxRtMidiOut.cpp" />
+    <ClCompile Include="..\ofxMidi\libs\rtmidi\RtMidi.cpp" />
     <ClCompile Include="src\recordChords.cpp" />
     <ClCompile Include="src\sequencerNote.cpp" />
     <ClCompile Include="src\slider.cpp" />
@@ -219,18 +219,18 @@
     <ClInclude Include="src\loopedNote.h" />
     <ClInclude Include="src\movingSwitch.h" />
     <ClInclude Include="src\ofApp.h" />
-    <ClInclude Include="..\..\..\addons\ofxMidi\src\ofxBaseMidi.h" />
-    <ClInclude Include="..\..\..\addons\ofxMidi\src\ofxMidi.h" />
-    <ClInclude Include="..\..\..\addons\ofxMidi\src\ofxMidiClock.h" />
-    <ClInclude Include="..\..\..\addons\ofxMidi\src\ofxMidiConstants.h" />
-    <ClInclude Include="..\..\..\addons\ofxMidi\src\ofxMidiIn.h" />
-    <ClInclude Include="..\..\..\addons\ofxMidi\src\ofxMidiMessage.h" />
-    <ClInclude Include="..\..\..\addons\ofxMidi\src\ofxMidiOut.h" />
-    <ClInclude Include="..\..\..\addons\ofxMidi\src\ofxMidiTimecode.h" />
-    <ClInclude Include="..\..\..\addons\ofxMidi\src\ofxMidiTypes.h" />
-    <ClInclude Include="..\..\..\addons\ofxMidi\src\desktop\ofxRtMidiIn.h" />
-    <ClInclude Include="..\..\..\addons\ofxMidi\src\desktop\ofxRtMidiOut.h" />
-    <ClInclude Include="..\..\..\addons\ofxMidi\libs\rtmidi\RtMidi.h" />
+    <ClInclude Include="..\ofxMidi\src\ofxBaseMidi.h" />
+    <ClInclude Include="..\ofxMidi\src\ofxMidi.h" />
+    <ClInclude Include="..\ofxMidi\src\ofxMidiClock.h" />
+    <ClInclude Include="..\ofxMidi\src\ofxMidiConstants.h" />
+    <ClInclude Include="..\ofxMidi\src\ofxMidiIn.h" />
+    <ClInclude Include="..\ofxMidi\src\ofxMidiMessage.h" />
+    <ClInclude Include="..\ofxMidi\src\ofxMidiOut.h" />
+    <ClInclude Include="..\ofxMidi\src\ofxMidiTimecode.h" />
+    <ClInclude Include="..\ofxMidi\src\ofxMidiTypes.h" />
+    <ClInclude Include="..\ofxMidi\src\desktop\ofxRtMidiIn.h" />
+    <ClInclude Include="..\ofxMidi\src\desktop\ofxRtMidiOut.h" />
+    <ClInclude Include="..\ofxMidi\libs\rtmidi\RtMidi.h" />
     <ClInclude Include="src\recordChords.h" />
     <ClInclude Include="src\sequencerNote.h" />
     <ClInclude Include="src\slider.h" />

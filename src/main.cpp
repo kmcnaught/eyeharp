@@ -1,6 +1,6 @@
 #include "ofMain.h"
 #include "ofApp.h"
-#include "ofAppGlutWindow.h"
+#include "ofAppGLFWWindow.h"
 /***********************************************************************
 
 THE EyeHarp: BY ZACHARIAS VAMVAKOUSIS
@@ -11,7 +11,7 @@ THE EyeHarp: BY ZACHARIAS VAMVAKOUSIS
 //========================================================================
 int main( ){
 	
-    ofAppGlutWindow window;
+	ofAppGLFWWindow window;
 	RECT desktop;
 	// Get a handle to the desktop window
 	const HWND hDesktop = GetDesktopWindow();
